@@ -23,7 +23,7 @@ public class TwimlBuilder {
         builder.play(play);
         return this;
     }
-
+/*
     public TwimlBuilder generateConnectConference(String conferenceId, boolean startOnEnter, boolean endOnExit) throws TwiMLException {
 
         Dial dial = new Dial.Builder()
@@ -39,6 +39,8 @@ public class TwimlBuilder {
         builder.dial(dial);
         return this;
     }
+    */
+
 
     public String toEscapedXML() {
         try {

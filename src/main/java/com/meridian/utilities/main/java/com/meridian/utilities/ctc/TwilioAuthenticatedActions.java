@@ -19,7 +19,7 @@ public class TwilioAuthenticatedActions {
     private String authToken;
     private String twilioNumber;
     private TwilioRestClient twilioRestClient;
-
+/*
     public TwilioAuthenticatedActions(TwilioRestClient twilioRestClient,
             @Named("env") Map<String, String> env) {
         this(env);
@@ -52,4 +52,5 @@ public class TwilioAuthenticatedActions {
                 URI.create(callbackUrl)).create(twilioRestClient);
         return call.getSid();
     }
+    */
 }
