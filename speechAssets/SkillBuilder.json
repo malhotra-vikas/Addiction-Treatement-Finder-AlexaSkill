@@ -1,0 +1,173 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my meridian",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "no",
+            "nope",
+            "no thanks",
+            "no thank you",
+            "bye",
+            "good bye",
+            "stop"
+          ]
+        },
+        {
+          "name": "GetNewsEventIntent",
+          "slots": [],
+          "samples": [
+            "news",
+            "real estate news",
+            "to get news",
+            "to read news",
+            "to read latest news",
+            "read news",
+            "get news",
+            "for news",
+            "What is going on",
+            "to give me news",
+            "what is the latest news",
+            "the latest news",
+            "latest news",
+            "latest real estate news"
+          ]
+        },
+        {
+          "name": "GetNextNewsEventIntent",
+          "slots": [],
+          "samples": [
+            "yes",
+            "yup",
+            "sure",
+            "yes please",
+            "go ahead",
+            "yo",
+            "Next"
+          ]
+        },
+        {
+          "name": "GetRatesEventIntent",
+          "slots": [],
+          "samples": [
+            "rates",
+            "real estate rates",
+            "to get rates",
+            "to read rates",
+            "to read latest rates",
+            "read rates",
+            "get rates",
+            "for rates",
+            "to give me rates",
+            "what is the latest rates",
+            "the latest rates",
+            "latest rates",
+            "latest real estate rates"
+          ]
+        },
+        {
+          "name": "GetNextRatesEventIntent",
+          "slots": [],
+          "samples": [
+            "Next Rate",
+            "Next"
+          ]
+        },
+        {
+          "name": "GetRateForIntent",
+          "slots": [
+            {
+              "name": "intentname",
+              "type": "LIST_OF_NAMES"
+            }
+          ],
+          "samples": [
+            "get {intentname}",
+            "get rates for {intentname}",
+            "get current rate for {intentname}",
+            "get current rates for {intentname}",
+            "current rate for {intentname}",
+            "current rates for {intentname}",
+            "latest rate for {intentname}",
+            "latest rates for {intentname}",
+            "give me rates for {intentname}",
+            "give me rate for {intentname}",
+            "{intentname}"
+          ]
+        },
+        {
+          "name": "Birth",
+          "slots": [],
+          "samples": [
+            "who created you",
+            "when were you born",
+            "invented",
+            "created",
+            "date of birth",
+            "birth",
+            "creator",
+            "inventor"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_NAMES",
+          "values": [
+            {
+              "name": {
+                "value": "LYEBER",
+                "synonyms": [
+                  "Libor Rate",
+                  "Libor Rates",
+                  "LYEBER Rate",
+                  "Libor",
+                  "LYEBER Rates"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Prime",
+                "synonyms": [
+                  "Prime Rates",
+                  "Prime Rate"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Swap",
+                "synonyms": [
+                  "Swap Rate",
+                  "Swap Rates"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Treasury",
+                "synonyms": [
+                  "Treasury Rates",
+                  "Treasury Rate"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
